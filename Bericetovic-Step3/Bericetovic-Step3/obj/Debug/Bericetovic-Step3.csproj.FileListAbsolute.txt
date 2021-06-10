@@ -1,0 +1,15 @@
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\bin\Debug\Bericetovic-Step3.exe.config
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\bin\Debug\Bericetovic-Step3.exe
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\bin\Debug\Bericetovic-Step3.pdb
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3.csprojAssemblyReference.cache
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\MainWindow.g.cs
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\App.g.cs
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3_MarkupCompile.cache
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3_MarkupCompile.lref
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\MainWindow.baml
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3.g.resources
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic_Step3.Properties.Resources.resources
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3.csproj.GenerateResource.cache
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3.csproj.CoreCompileInputs.cache
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3.exe
+C:\Users\bericetovic.g02\Desktop\Bericetovic-Step3\Bericetovic-Step3\obj\Debug\Bericetovic-Step3.pdb
