@@ -1,5 +1,7 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,28 @@ namespace Bericetovic_Step3
         public MainWindow()
         {
             InitializeComponent();
+
+            ObservableCollection<Champ> eintrag = new ObservableCollection<Champ>();
+           /** using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                // connect
+                connection.Open();
+
+                // command
+                MySqlCommand cmd = new MySqlCommand("select * from Champ", connection);
+
+                // read result
+                using (MySqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Champ c = new Champ((int)reader[0], (int)reader[1], (string)reader[2]);
+                        eintrag.Add(c);
+                    }
+                }
+            }**/
+            var a = (DataViewer)Rolle_Image.DataContext;
+            a.Champs = eintrag;
         }
 
         private void Roll_Button_Click(object sender, RoutedEventArgs e)
