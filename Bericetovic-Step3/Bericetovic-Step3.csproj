@@ -100,7 +100,6 @@
     </ApplicationDefinition>
     <Compile Include="Champ.cs" />
     <Compile Include="DataViewer.cs" />
-    <Compile Include="Deck.cs" />
     <Compile Include="Faehigkeiten.cs" />
     <Compile Include="Rolle-Info.xaml.cs">
       <DependentUpon>Rolle-Info.xaml</DependentUpon>
