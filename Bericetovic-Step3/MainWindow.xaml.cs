@@ -81,10 +81,6 @@ namespace Bericetovic_Step3
             var uriSource = new Uri($@"images/{Champ_Select.SelectedItem}.png", UriKind.Relative);
             BgImage.Source = (new BitmapImage(uriSource));
 
-            var sounds = new Uri($@"../../Sounds/{Champ_Select.SelectedItem}.mp3", UriKind.Relative);
-            voice.Source = sounds;
-            voice.Play();
-
             ObservableCollection<Champ> eintrag = new ObservableCollection<Champ>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
