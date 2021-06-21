@@ -136,7 +136,6 @@ namespace Bericetovic_Step3
 
         private void Q_Button_Click(object sender, RoutedEventArgs e)
         {
-            ObservableCollection<Faehigkeiten> eintrag = new ObservableCollection<Faehigkeiten>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 // connect
@@ -151,25 +150,16 @@ namespace Bericetovic_Step3
                     while (reader.Read())
                     {
                         Faehigkeiten c = new Faehigkeiten((int)reader[0], (string)reader[1], (string)reader[2], (string)reader[3], (string)reader[4]);
-                        eintrag.Add(c);
 
 
                         AttackInfo.Text = c.Q;
                     }
-                }
-
-                var a = (DataViewer)Rolle_Image.DataContext;
-                foreach (var item in eintrag)
-                {
-                   a.Faehigkeitens.Add(item);
-
                 }
             }
         }
 
         private void W_Button_Click(object sender, RoutedEventArgs e)
         {
-            ObservableCollection<Faehigkeiten> eintrag = new ObservableCollection<Faehigkeiten>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 // connect
@@ -184,7 +174,6 @@ namespace Bericetovic_Step3
                     while (reader.Read())
                     {
                         Faehigkeiten c = new Faehigkeiten((int)reader[0], (string)reader[1], (string)reader[2], (string)reader[3], (string)reader[4]);
-                        eintrag.Add(c);
 
                         AttackInfo.Text = c.W;
                     }
@@ -194,7 +183,6 @@ namespace Bericetovic_Step3
 
         private void E_Button_Click(object sender, RoutedEventArgs e)
         {
-            ObservableCollection<Faehigkeiten> eintrag = new ObservableCollection<Faehigkeiten>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 // connect
@@ -209,7 +197,6 @@ namespace Bericetovic_Step3
                     while (reader.Read())
                     {
                         Faehigkeiten c = new Faehigkeiten((int)reader[0], (string)reader[1], (string)reader[2], (string)reader[3], (string)reader[4]);
-                        eintrag.Add(c);
 
                         AttackInfo.Text = c.E;
                     }
@@ -219,7 +206,6 @@ namespace Bericetovic_Step3
 
         private void R_Button_Click(object sender, RoutedEventArgs e)
         {
-            ObservableCollection<Faehigkeiten> eintrag = new ObservableCollection<Faehigkeiten>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 // connect
@@ -234,7 +220,6 @@ namespace Bericetovic_Step3
                     while (reader.Read())
                     {
                         Faehigkeiten c = new Faehigkeiten((int)reader[0], (string)reader[1], (string)reader[2], (string)reader[3], (string)reader[4]);
-                        eintrag.Add(c);
              
                         AttackInfo.Text = c.R;
                     }
